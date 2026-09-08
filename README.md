@@ -135,6 +135,10 @@ The longer-term development direction is:
 
 Field2Map is an evolving project. Future versions will build on the current photograph-to-geospatial-data workflow.
 
+**##License**
+
+Field2Map is currently shared publicly for learning, experimentation, research, and portfolio purposes. The project is not currently released under an open-source license. All rights are reserved by the author unless otherwise stated.
+
 ## Author
 
 **Eniola Omotoye**
