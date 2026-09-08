@@ -1,0 +1,17 @@
+# Python
+__pycache__/
+*.py[cod]
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Field2Map generated outputs
+field2map_results.csv
+field2map_map.html
+
+# Local/test data
+test_data/
+
+# Operating system files
+.DS_Store
+Thumbs.db
