@@ -60,3 +60,81 @@ Structured results table
 Interactive map
         ↓
 CSV + HTML export
+
+## Technology
+
+- Python
+- EXIF metadata
+- Pandas
+- Folium
+- Google Colab
+
+## Example Output
+
+### Extracted field data
+
+Screenshots of the Field2Map results table will be added here.
+
+### Interactive map
+
+Screenshots of the Field2Map interactive map will be added here.
+
+## How to Use
+
+Field2Map V1 is currently provided as a Google Colab notebook.
+
+1. Open `Field2Map_v1.ipynb`.
+2. Open the notebook in Google Colab.
+3. Run the cells from top to bottom.
+4. Upload your photographs when prompted.
+5. Field2Map processes the available EXIF metadata.
+6. Review the extracted coordinates and metadata.
+7. View the interactive map.
+8. Download the CSV dataset and HTML map.
+
+## Important Limitation
+
+Field2Map does not identify a photograph's location from its visual content.
+
+It extracts geographic coordinates that are already stored in the photograph's EXIF metadata.
+
+If a photograph does not contain GPS information, Field2Map does not guess or invent a location.
+
+This distinction is important for research and field-data integrity.
+
+## V1 Scope
+
+Field2Map V1 focuses on the basic workflow of converting geotagged photographs into structured geographic information.
+
+It is intentionally simple and serves as the foundation for future development.
+
+## Future Development
+
+Potential future versions may include:
+
+- Manual coordinate entry when GPS metadata is unavailable
+- Photo previews
+- GeoJSON export
+- Environmental field observations
+- Standardized field survey forms
+- Improved GIS interoperability
+- OpenStreetMap integration
+- Duplicate detection
+- Additional EXIF metadata
+- A dedicated web interface
+
+The longer-term development direction is:
+
+**Photo → Location → Observation → Map → Analysis**
+
+## Project Status
+
+**Current version: V1**
+
+Field2Map is an evolving project. Future versions will build on the current photograph-to-geospatial-data workflow.
+
+## Author
+
+**Eniola Omotoye**
+
+Environmental and fisheries professional interested in marine conservation, geospatial technologies, environmental research, and the application of technology to field-based environmental problems.
