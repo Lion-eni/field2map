@@ -1,3 +1,4 @@
+
 # Field2Map
 
 ### From field photographs to mapped geographic data
@@ -60,14 +61,15 @@ Structured results table
 Interactive map
         ↓
 CSV + HTML export
+````
 
 ## Technology
 
-- Python
-- EXIF metadata
-- Pandas
-- Folium
-- Google Colab
+* Python
+* EXIF metadata
+* Pandas
+* Folium
+* Google Colab
 
 ## Example Output
 
@@ -112,16 +114,16 @@ It is intentionally simple and serves as the foundation for future development.
 
 Potential future versions may include:
 
-- Manual coordinate entry when GPS metadata is unavailable
-- Photo previews
-- GeoJSON export
-- Environmental field observations
-- Standardized field survey forms
-- Improved GIS interoperability
-- OpenStreetMap integration
-- Duplicate detection
-- Additional EXIF metadata
-- A dedicated web interface
+* Manual coordinate entry when GPS metadata is unavailable
+* Photo previews
+* GeoJSON export
+* Environmental field observations
+* Standardized field survey forms
+* Improved GIS interoperability
+* OpenStreetMap integration
+* Duplicate detection
+* Additional EXIF metadata
+* A dedicated web interface
 
 The longer-term development direction is:
 
@@ -137,4 +139,4 @@ Field2Map is an evolving project. Future versions will build on the current phot
 
 **Eniola Omotoye**
 
-Environmental and fisheries professional interested in marine conservation, geospatial technologies, environmental research, and the application of technology to field-based environmental problems.
+Fisheries professional interested in marine conservation, geospatial technologies, environmental research, and the application of technology to field-based environmental problems.
